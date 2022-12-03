@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=DM+Serif+Display&family=Permanent+Marker&display=swap');
+
 body{
     background-color: darkseagreen;
     text-align: center;
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 h1,
 h2 {
     color: rgb(248, 177, 85);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p{
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #my-avatar {
@@ -21,4 +22,9 @@ p{
 
 #content {
     text-align: center;
+}
+
+#my-name {
+    font-family: 'Permanent Marker', cursive;
+    color: #FA7070;
 }
