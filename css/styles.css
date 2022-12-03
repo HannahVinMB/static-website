@@ -2,7 +2,6 @@
 
 body{
     background-color: darkseagreen;
-    text-align: center;
     font-family: 'Averia Serif Libre', cursive;
 }
 
@@ -27,4 +26,30 @@ p{
 #my-name {
     font-family: 'Permanent Marker', cursive;
     color: #FA7070;
+}
+
+#left-side {
+    width: 50%;
+    display: inline-block;
+   
+}
+
+#right-side {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+a {
+    color: #FEBE8C;
+    text-decoration: none;
+    border-bottom: #F7A4A4;
+}
+
+header {
+    margin-top: 16px;
+}
+
+.nav-link {
+    margin-left: 8px;
 }
