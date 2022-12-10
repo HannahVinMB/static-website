@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=DM+Serif+Display&family=Permanent+Marker&display=swap');
 
+html,
+body {
+
+ }
+
 body{
     background-color: darkseagreen;
     font-family: 'Averia Serif Libre', cursive;
@@ -52,4 +57,25 @@ header {
 
 .nav-link {
     margin-left: 8px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 16px;
+
+    footer a:first-child {
+        margin-right: 16pxl;
+    }
+}
+
+#content div {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
